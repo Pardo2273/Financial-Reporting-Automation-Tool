@@ -53,8 +53,23 @@ The organization required a desktop-based solution capable of operating locally 
 * Python
 * Pandas
 * Tkinter
+* Threading
+* OS
+* PyInstaller
 * Excel/CSV Processing
 * Desktop Application Development
+
+---
+
+## Deployment
+
+The application was packaged as a standalone Windows executable using PyInstaller, allowing end users to run the solution without installing Python or additional dependencies.
+
+### Platform Support
+
+* Windows (Primary Deployment Target)
+
+The solution was originally designed for Windows environments based on organizational requirements and deployment constraints.
 
 ---
 
