@@ -138,9 +138,70 @@ The project not only automated a critical business process but also contributed 
 
 ---
 
-## Screenshots
+## Usage
 
-*Screenshots will be added in a future update.*
+The application runs as a single-window desktop tool. Follow the steps below to generate your financial report.
+
+---
+
+### Step 1 — Launch the Application
+
+![Step 1 - Main Screen](screenshots/01_main_screen.png)
+
+Upon opening the tool, the main window is displayed with two buttons:
+- **Select file** → enabled, ready to open a file browser
+- **Make the Report** → disabled until a valid file is selected
+
+---
+
+### Step 2 — Select Your Input File
+
+![Step 2 - File Browser](screenshots/02_file_browser.png)
+
+Clicking **Select file** opens a Windows file explorer dialog filtered to **Excel / CSV files only**.  
+Navigate to the location of your input file and select it.
+
+> **Supported formats:** `.xlsx`, `.xls`, `.csv`
+
+---
+
+### Step 3 — File Ready Confirmation
+
+![Step 3 - File Ready](screenshots/03_file_ready.png)
+
+Once a valid file is selected, the interface updates:
+- The filename is displayed (`sample_input.csv`)
+- A green indicator confirms **"File ready — you're good to go"**
+- **Make the Report** button becomes active
+- **Select file** changes to **Change file**, allowing you to swap the file if needed
+
+---
+
+### Step 4 — Report Generation
+
+![Step 4 - Success](screenshots/04_success.png)
+
+Clicking **Make the Report** processes the input file and triggers a confirmation message:
+
+> ✅ *Report saved to your Downloads folder.*  
+> *Closing in 3 seconds...*
+
+The application closes automatically after the countdown.
+
+---
+
+### Step 5 — Output File
+
+![Step 5 - Output in Downloads](screenshots/05_output.png)
+
+The generated report is saved as an Excel file (`.xlsx`) directly to your **Downloads** folder.  
+No additional configuration or save dialog is required.
+
+| Output detail | Value |
+|---|---|
+| Format | `.xlsx` (Excel Workbook) |
+| Location | `This PC > Downloads` |
+| Filename | `financial_report` |
 
 ---
 
