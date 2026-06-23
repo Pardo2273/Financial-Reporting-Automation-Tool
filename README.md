@@ -151,3 +151,23 @@ This repository includes synthetic sample datasets created exclusively for demon
 The sample files do not contain real financial information, customer records, or organizational data.
 
 ---
+
+## Build Instructions
+
+> **Requirement:** Run from the VS Code integrated terminal.  
+> Open it via **Terminal → New Terminal** in the top menu bar,  
+> then make sure to select **Command Prompt** or **PowerShell** (not Git Bash).
+
+To generate a standalone Windows `.exe`:
+
+```cmd
+pyinstaller --onefile --windowed --name your_app_name main.py
+```
+
+**Notes:**
+- `--onefile` → bundles everything into a single `.exe`
+- `--windowed` → suppresses the console window on launch
+- `--name` → replace `your_app_name` with your app name, no quotes, no spaces
+- Output `.exe` will be located in the `dist/` folder of your project
+
+---
