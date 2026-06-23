@@ -369,7 +369,7 @@ overlay_label.place(relx=0.5, rely=0.62, anchor="center")
 # ── Footer ────────────────────────────────────────────
 tk.Label(
     root,
-    text="v1.2  —  Tool developed by Gabriel Prado",
+    text="v1.0  —  Tool developed by Gabriel Prado",
     font=("Segoe UI", 9),
     fg=TEXT_MUTED, bg=BG,
 ).pack(side="bottom", pady=10)
