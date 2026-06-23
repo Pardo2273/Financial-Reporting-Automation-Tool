@@ -143,3 +143,9 @@ The project not only automated a critical business process but also contributed 
 *Screenshots will be added in a future update.*
 
 ---
+
+## Sample Data
+
+This repository includes synthetic sample datasets created exclusively for demonstration and testing purposes.
+
+The sample files do not contain real financial information, customer records, or organizational data.
